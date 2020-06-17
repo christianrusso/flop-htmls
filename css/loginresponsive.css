@@ -1,0 +1,87 @@
+/***
+    RESPONSIVE
+***/
+
+@media only screen and (min-width: 2100px) {}
+
+@media only screen and (min-width: 1500px) {}
+
+@media only screen and (max-width: 767px) {
+.login .logo {
+    max-width: 150px;
+    display: block;
+    margin: auto;
+}
+.login {
+    background-color: #f5f5f5;
+    background-image: url(../img/registro_proveedor/bg.png);
+    min-height: 100vh;
+    background-size: contain;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+.login h1 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    margin-top: 4px;
+    font-size: 25px;
+}
+.login .opciones a {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.login .opciones {
+    flex-wrap: wrap;
+}
+}
+
+
+/** TABLET **/
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+ .login {
+    background-color: #f5f5f5;
+    background-image: url(../img/registro_proveedor/bg.png);
+    min-height: 100vh;
+    background-size: contain;
+    background-position: center -100px;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}   
+}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+.login h1 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 28px;
+}
+.login .logo {
+    max-width: 200px;
+    display: block;
+    margin: auto;
+}
+ .login {
+    background-color: #f5f5f5;
+    background-image: url(../img/registro_proveedor/bg.png);
+    min-height: 100vh;
+    background-size: contain;
+    background-position: center -100px;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}  
+}

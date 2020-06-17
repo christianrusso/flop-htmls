@@ -1,0 +1,164 @@
+/***
+    RESPONSIVE
+***/
+
+@media only screen and (min-width: 2100px) {}
+
+@media only screen and (min-width: 1500px) {}
+
+@media only screen and (max-width: 767px) {
+    .registro_proveedor .logo {
+        max-width: 200px;
+    }
+    .registro_proveedor .container_registro h3 {
+        font-size: 18px;
+        color: #0091FF;
+        font-weight: 700;
+        margin-top: 20px;
+        font-family: montserrat, sans-serif;
+        margin-bottom: 20px;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .registro_proveedor .container_registro form .item_form.half {
+        max-width: 100%;
+        width: 100%;
+    }
+    .registro_proveedor {
+        background-position: center 0px;
+        padding-top: 20px;
+    }
+    .registro_proveedor .container_registro h2 {
+        font-family: montserrat, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .registro_proveedor .container_registro .crear p {
+        margin: 0;
+        font-weight: 900;
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .registro_proveedor .container_registro {
+        padding: 15px 15px;
+    }
+    .registro_proveedor .container_registro .crear {
+        background: #0091ff;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 0;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        flex-direction: column;
+    }
+    /***
+    FOOTER
+****/
+    footer {
+        padding: 0 20px!important;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-bottom: 60px!important;
+        text-align: center;
+        margin-top: 0px;
+    }
+    footer div {}
+    footer div.image_footer {
+        max-width: 100%;
+        width: 100%;
+        margin-top: 30px;
+    }
+    footer div.image_footer img {}
+    footer div.image_footer div {
+        padding-left: 0;
+        margin-top: 0;
+    }
+    footer div.image_footer div a {
+        display: block;
+        color: #0091FF;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    footer div.image_footer div a img {
+        margin-right: 10px;
+    }
+    footer div.menu_footer {
+        max-width: 100%;
+        width: 100%;
+        /* padding-top: 100px; */
+        margin-top: 10px;
+    }
+    footer div.menu_footer h2 {
+        margin-top: 0;
+        color: #0091FF;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    footer div.menu_footer a {
+        display: block;
+        line-height: 34px;
+        font-size: 16px;
+        color: #000;
+    }
+    footer div.direccion_footer {
+        max-width: 100%;
+        width: 100%;
+        margin-top: 20px;
+    }
+    footer div.direccion_footer h2 {
+        margin-top: 0;
+        color: #0091FF;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    footer div.direccion_footer p {
+        display: block;
+        line-height: 34px;
+        font-size: 16px;
+        color: #000;
+        margin-bottom: 0;
+    }
+    footer div.direccion_footer a {
+        margin-top: 25px;
+        display: inline-block;
+        color: #0091FF;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #0091FF;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 7px;
+        font-size: 16px;
+    }
+    footer div.direccion_footer a i {}
+    footer div.direccion_footer a:hover {
+        background: #0091ff;
+        color: #fff;
+    }
+}
+
+
+/** TABLET **/
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .registro_proveedor {
+        background-position: center 0px;
+    }
+}

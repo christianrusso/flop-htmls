@@ -1,0 +1,445 @@
+/*** General ***/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "SFProDisplay", "sans-serif";
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+a {
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    opacity: 0.7;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+
+/*** Fonts ***/
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../fonts/SFProDisplay-Medium.woff2') format('woff2'), url('../fonts/SFProDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../fonts/SFProDisplay-BoldItalic.woff2') format('woff2'), url('../fonts/SFProDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../fonts/SFProDisplay-Regular.woff2') format('woff2'), url('../fonts/SFProDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../fonts/SFProDisplay-HeavyItalic.woff2') format('woff2'), url('../fonts/SFProDisplay-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../fonts/SFProDisplay-Heavy.woff2') format('woff2'), url('../fonts/SFProDisplay-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/****  REGISTRO ****/
+
+.registro_proveedor {
+    background-color: #f5f5f5;
+    background-image: url(../img/registro_proveedor/bg.png);
+    min-height: 100vh;
+    background-size: contain;
+    background-position: center -100px;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+}
+
+.registro_proveedor .logo {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.registro_proveedor .container_registro {
+    max-width: 700px;
+    margin: auto;
+    background: #fff;
+    border-radius: 40px;
+    margin-top: 45px;
+    padding: 15px 35px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 70px;
+}
+
+.registro_proveedor .container_registro .crear {
+    background: #0091ff;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.registro_proveedor .container_registro .crear p {
+    margin: 0;
+    font-weight: 900;
+    color: #fff;
+    font-size: 18px;
+}
+
+.registro_proveedor .container_registro .crear a {
+    border-radius: 35px;
+    background: #fff;
+    display: block;
+    padding: 6px;
+    margin-right: 8px;
+    color: #0091ff;
+    font-weight: 700;
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+.registro_proveedor .container_registro .crear a img {
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px black;
+    padding: 4px;
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+.registro_proveedor .container_registro h2 {
+    font-family: montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.registro_proveedor .container_registro h3 {
+    font-size: 18px;
+    color: #0091FF;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: montserrat, sans-serif;
+    margin-bottom: 20px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.registro_proveedor .container_registro form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.registro_proveedor .container_registro form .item_form {
+    margin-bottom: 20px;
+}
+
+.registro_proveedor .container_registro form .item_form.half {
+    max-width: 48%;
+    width: 100%;
+    position: relative;
+}
+
+.registro_proveedor .container_registro form .item_form.full {
+    max-width: 100%;
+    width: 100%;
+}
+
+.registro_proveedor .container_registro form .item_form input[type="text"],
+.registro_proveedor .container_registro form .item_form input[type="email"],
+.registro_proveedor .container_registro form .item_form input[type="password"] {
+    width: 100%;
+    display: block;
+    height: 45px;
+    border: 1px solid #979797;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: montserrat, sans-serif;
+    color: #333;
+}
+
+.registro_proveedor .container_registro form .captcha {
+    max-width: 100%;
+    width: 100%;
+}
+
+.registro_proveedor .container_registro form .captcha img {
+    max-width: 250px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.registro_proveedor .container_registro form .item_form select {
+    width: 100%;
+    display: block;
+    height: 45px;
+    border: 1px solid #979797;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: montserrat, sans-serif;
+    color: #333;
+}
+
+.registro_proveedor .container_registro form .item_form input[type="text"]:focus,
+.registro_proveedor .container_registro form .item_form input[type="email"]:focus,
+.registro_proveedor .container_registro form .item_form input[type="password"]:focus {
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #0091ff;
+}
+
+.registro_proveedor .container_registro form .item_form input[type="submit"]:hover {
+    opacity: .7;
+    transition: all 0.3s ease-in-out;
+}
+
+.registro_proveedor .container_registro form .item_form .see_unsee {
+    height: 45px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #979797;
+    border-radius: 0px 10px 10px 0px;
+    width: 50px;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+.registro_proveedor .container_registro form .item_form .see_unsee img {}
+
+.registro_proveedor .container_registro form .item_form input[type="submit"] {
+    background: #01CA84;
+    width: 100%;
+    border: none;
+    height: 42px;
+    border-radius: 30px;
+    margin-top: 30px;
+    color: #fff;
+    line-height: 42px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.registro_proveedor .container_registro form .item_form #mapa {
+    background-image: url(../img/registro_proveedor/mapa.png);
+    height: 300px;
+    margin-top: 30px;
+}
+
+.registro_proveedor .container_registro form .item_form label {
+    font-weight: 500;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.registro_proveedor .container_registro form .item_form label span {
+    color: #F60707;
+}
+
+.registro_proveedor .container_registro form .item_form .confirmar {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.registro_proveedor .container_registro form .item_form .confirmar a {
+    background: #0091ff;
+    color: #fff;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    width: 120px;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 30px;
+}
+
+.registro_proveedor .container_registro form hr {
+    width: 100%;
+}
+
+.registro_proveedor .container_registro form .item_form input[type="file"] {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+}
+
+.registro_proveedor .container_registro form .item_form input[type="file"]+label {
+    background: transparent;
+    border: none;
+    border-radius: 30px;
+    color: #000;
+    border: 1px dashed #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: montserrat, sans-serif;
+    font-size: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 0;
+    outline: none;
+    padding: 1rem;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    vertical-align: middle;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.registro_proveedor .container_registro form .item_form input[type="file"]+label:hover {
+    background-color: transparent;
+}
+
+.registro_proveedor .container_registro form .item_form input[type="file"]+label i {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 7px;
+}
+
+.registro_proveedor .container_registro form .item_form .confirmar label {
+    margin: 0;
+}
+
+
+/*** FOOTER ****/
+
+footer {
+    padding: 100px 80px!important;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: start;
+    background: rgb(229, 244, 255);
+}
+
+footer div {}
+
+footer div.image_footer {
+    max-width: 45%;
+    width: 100%;
+}
+
+footer div.image_footer img {
+    width: 190px;
+}
+
+footer div.image_footer p {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+footer div.image_footer div {
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+footer div.image_footer div a {
+    display: block;
+    color: #0091FF;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+footer div.image_footer div a img {
+    margin-right: 10px;
+    width: auto;
+}
+
+footer div.menu_footer {
+    max-width: 18%;
+    width: 100%;
+    /* padding-top: 100px;
+     */
+}
+
+footer div.menu_footer h2 {
+    margin-top: 0;
+    color: #0091FF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer div.menu_footer a {
+    display: block;
+    line-height: 39px;
+    font-size: 16px;
+    color: #000;
+}
+
+footer div.direccion_footer {
+    max-width: 18%;
+    width: 100%;
+    vertical-align: top;
+}
+
+footer div.direccion_footer h2 {
+    margin-top: 0;
+    color: #0091FF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer div.direccion_footer p {
+    display: block;
+    line-height: 34px;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 0;
+}
+
+footer div.direccion_footer a {
+    margin-top: 10px;
+    display: inline-block;
+    color: #0091FF;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #0091FF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+footer div.direccion_footer a i {}
+
+footer div.direccion_footer a:hover {
+    background: #0091ff;
+    color: #fff;
+}

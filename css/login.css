@@ -1,0 +1,218 @@
+/*** General ***/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "SFProDisplay", "sans-serif";
+}
+
+html {
+    overflow-x: hidden;
+}
+
+a {
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    opacity: 0.7;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+
+/*** Fonts ***/
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../fonts/SFProDisplay-Medium.woff2') format('woff2'), url('../fonts/SFProDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../fonts/SFProDisplay-BoldItalic.woff2') format('woff2'), url('../fonts/SFProDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../fonts/SFProDisplay-Regular.woff2') format('woff2'), url('../fonts/SFProDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../fonts/SFProDisplay-HeavyItalic.woff2') format('woff2'), url('../fonts/SFProDisplay-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../fonts/SFProDisplay-Heavy.woff2') format('woff2'), url('../fonts/SFProDisplay-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/****  REGISTRO ****/
+
+.login {
+    background-color: #f5f5f5;
+    background-image: url(../img/registro_proveedor/bg.png);
+    min-height: 100vh;
+    background-size: contain;
+    background-position: center -100px;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+}
+
+.login .logo {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.login .container_login h2 {
+    margin: 0;
+    color: #0091ff;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.login .container_login {
+    max-width: 450px;
+    margin: auto;
+    background: #F4F8FB;
+    border-radius: 10px;
+    margin-top: 35px;
+    padding: 35px 35px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 70px;
+}
+
+.login h1 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+.login form {
+    margin-top: 30px;
+}
+
+.login input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    background: #0091ff;
+    border: none;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.login input[type="submit"]:hover {}
+
+.login .forgot {
+    display: block;
+    text-align: right;
+    color: #0091ff;
+    font-size: 15px;
+}
+
+.login .opciones {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.login .google img {
+    margin-right: 10px;
+}
+
+.login .opciones a {
+    max-width: 48%;
+    width: 100%;
+    height: 44px;
+    background: #0091ff;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+    font-family: montserrat, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.login .google {
+    width: 100%;
+    display: block;
+    background: #fff;
+    height: 47px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    line-height: 47px;
+    color: #233B58;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login .google a {}
+
+.login .item_form_login {
+    width: 100%;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.login hr {}
+
+.login .account {
+    display: block;
+    text-align: center;
+    color: #0091ff;
+    font-size: 15px;
+}
+
+.login .item_form_login input {
+    width: 100%;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    padding-left: 40px;
+    font-family: montserrat, sans-serif;
+    line-height: 48px;
+}
+
+.login .item_form_login input:focus {}
+
+.login .item_form_login img {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+
+.login .item_form_login img.email_img {
+    opacity: .5;
+}
