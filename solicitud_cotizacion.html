@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html ng-app=''>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" type="image/ico" href="favicon.ico" />
+      <title>Solicitud de cotización</title>
+      <!-- Styles -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/owl.carousel.css">
+      <link rel="stylesheet" href="css/solicitud_cotizacion.css">
+      <link rel="stylesheet" href="css/solicitud_cotizacionresponsive.css">
+      <link rel="stylesheet" href="css/animate.css">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;900&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Menú -->
+      <nav class="navbar navbar-default">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                  aria-expanded="false">
+               <span class="sr-only">Menú</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="index.html"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                  <li>
+                     <a href="">¿Cómo funciona?</a>
+                  </li>
+                  <li>
+                     <a href="">Ayuda <img src="img/solicitud_cotizacion/menu/ayuda.svg" alt=""  class="m-left"></a>
+                  </li>
+                  <li>
+                     <a href=""><img src="img/solicitud_cotizacion/menu/notificaciones.svg" alt=""></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/solicitud_cotizacion/menu/usuario.svg" alt=""></a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <h3>Bautem SA</h3>
+                        <hr>
+                        <li><a class="dropdown-item special_btn" href="#">Nueva cotización</a></li>
+                        <li><a class="dropdown-item" href="#">Mi perfil</a></li>
+                        <li><a class="dropdown-item" href="#">Mis créditos</a></li>
+                        <li><a class="dropdown-item" href="#">Mi suscripción</a></li>
+                        <hr>
+                        <li><a class="dropdown-item help_btn" href="#">Ayuda <img src="img/solicitud_cotizacion/menu/ayuda_blue.svg" alt=""></a></li>
+                        <li><a class="dropdown-item" href="#">Centro de ayuda</a></li>
+                        <li><a class="dropdown-item" href="#">Novedades</a></li>
+                        <li><a class="dropdown-item" href="#">¿Cómo funciona?</a></li>
+                        <hr>
+                        <li><a class="dropdown-item" href="#"><img src="img/solicitud_cotizacion/menu/ajustes.svg" alt="">Ajustes</a></li>
+                        <li><a class="dropdown-item" href="#"><img src="img/solicitud_cotizacion/menu/salir.svg" alt="">Salir</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- // menú -->
+
+       <!-- SOLICITUD -->
+
+      <section class="col-xs-12 solicitud">
+
+           <!-- Menú -->
+           <div class="top_menu">
+            <div class="flex_one">
+              <div class="side_one">
+                 <div>
+                    <img src="img/solicitud_cotizacion/seccion/location.png" alt="">
+                 </div>
+                 <div>
+                    <h2>Enviar a</h2>
+                    <h3>Salamanca</h3>
+                 </div>
+              </div>
+              <div class="side_two">
+                 <a href="">Mis direcciones</a>
+              </div>
+            </div>
+            <div class="flex_two">
+              <a href="">Nueva cotización</a>
+            </div>
+         </div>
+
+         <!-- Formulario -->
+         <div class="container_solicitud">
+            <div class="proveedores">
+               <p>Pedí tu cotización</p>
+               <span>320 proveedores</span>
+            </div>
+
+            <form action="">
+            <div class="full_container">
+               <div class="seven_container">
+                  <h2>Elegí la categoria acorde a tu necesidad</h2>
+                  <select name="" id="">
+                     <option value="" selected="">Construcción</option>
+                     <option value="">Mensajería</option>
+                     <option value="">Transporte</option>
+                     <option value="">Comercial</option>
+                  </select>
+               </div>
+               <div class="three_container">
+                  <div class="text">
+                     <h3>Utilizá las categorias y subcategorias para orientar mejor tu cotización. </h3>
+                     <p>Cuanto más precisa sea tu selección, más fácil será para el proveedor abastecer tu necesidad.  </p>
+                  </div>
+               </div>
+            </div>
+
+            <hr>
+
+
+            <div class="full_container">
+               <div class="seven_container">
+                  <div class="form_grupos">
+                     <label for="">Titulo de la cotización</label>
+                     <input type="text" placeholder="Ejemplo: REMODELACION OFICINA">
+                  </div>
+                  <div class="form_grupos">
+                     <label for="">Describe lo que estas necesitando</label>
+                     <div>
+                        <input type="text" placeholder="Ejemplo: Sillas de madera ">
+                        <select name="" id="">
+                           <option value="" selected disabled>Cant.</option>
+                           <option value="">1</option>
+                           <option value="">2</option>
+                           <option value="">3</option>
+                        </select>
+                         <select name="" id="">
+                           <option value="" selected disabled>Uni.</option>
+                           <option value="">1</option>
+                           <option value="">2</option>
+                           <option value="">3</option>
+                        </select>
+                     </div>
+                     <div>
+                        <input type="text" placeholder="Ejemplo: Sillas de madera ">
+                        <select name="" id="">
+                           <option value="" selected disabled>Cant.</option>
+                           <option value="">1</option>
+                           <option value="">2</option>
+                           <option value="">3</option>
+                        </select>
+                         <select name="" id="">
+                           <option value="" selected disabled>Uni.</option>
+                           <option value="">1</option>
+                           <option value="">2</option>
+                           <option value="">3</option>
+                        </select>
+                        <a href=""><i class="fa fa-times"></i></a>
+                     </div>
+                     <div>
+                        <input type="text" placeholder="Ejemplo: Sillas de madera ">
+                        <select name="" id="">
+                           <option value="" selected disabled>Cant.</option>
+                           <option value="">1</option>
+                           <option value="">2</option>
+                           <option value="">3</option>
+                        </select>
+                         <select name="" id="">
+                           <option value="" selected disabled>Uni.</option>
+                           <option value="">1</option>
+                           <option value="">2</option>
+                           <option value="">3</option>
+                        </select>
+                         <a href=""><i class="fa fa-times"></i></a>
+                     </div>
+                     <a href="" class="add_item"><i class="fa fa-plus"></i> Agregar item</a>
+                  </div>
+               </div>
+               <div class="three_container">
+                  <div class="text">
+                     <h3>Este es el primer punto de encuentro con el proveedor.</h3>
+                     <p>Busca que el título contenga todas las palabras claves detu necesidad y que, al mismo tiempo, sea una síntesis.</p>
+                     <p>En la descripción desarrolla más tu necesidad, cuanto más completa, más rápido el proveedor correcto encontrará tu producto.</p>
+                     <p>No olvides aclarar: las dimensiones, la urgencia, las fechas de entrega, la cantidad, y si tienes archivos referenciales.</p>
+                  </div>
+               </div>
+            </div>
+
+            <hr>
+
+            <div class="full_container">
+               <div class="seven_container">
+                  <div class="form_grupos">
+                     <label for="">Define la condicion de pago de tu preferencia</label>
+                     <div class="type_payment">
+                        <a href="">Contado <i class="fa fa-check"></i></a>
+                        <a href="" class="active">Crédito <i class="fa fa-check"></i></a>
+                     </div>
+                  </div>
+                  <div class="form_grupos">
+                     <label for="">Tiempo de entrega</label>
+                     <input type="text" placeholder="Ejemplo: Lo antes posible">
+                  </div>
+               </div>
+               <div class="three_container">
+                  <div class="text">
+                     <h3>La definición de condicion de pago y tiempo de entrega son cruciales para el proveedor. </h3>
+                     <p>Evita malos entendidos completando  a conciencia estos puntos. Luego, el proveedor tambien tendrá la posibilidad de ofrecerte su visión profesional sobre tu necesidad, a través de su cotización específica.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="full_container">
+               <input type="submit" value="ENVIAR PEDIDO DE COTIZACIÓN">
+            </div>
+
+            </form>
+
+
+         </div>
+
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="col-xs-12">
+         <div class="image_footer">
+            <img src="img/solicitud_cotizacion/logo/logo.png" alt="Quanto">
+            <p>Slogan de la empresa</p>
+            <div>
+               <a href="mailto:contacto@gmail.com"><img src="img/solicitud_cotizacion/footer/email.png" alt="email"> contacto@gmail.com</a>
+               <a href="tel:"><img src="img/solicitud_cotizacion/footer/phone.png" alt="telefono"> +54 9 11 3344-9892</a>
+            </div>
+         </div>
+         <div class="menu_footer">
+            <h2>Servicios</h2>
+            <a href="">Soy empresa</a>
+            <a href="">Quiero ser proveedor</a>
+         </div>
+         <div class="menu_footer">
+            <h2>Quanto</h2>
+            <a href="">Sobre nosotros</a>
+            <a href="">Nuestro equipo</a>
+            <a href="">Nuestra historia</a>
+            <a href="">Politicas de privacidad</a>
+         </div>
+         <div class="direccion_footer">
+            <h2>Dirección</h2>
+            <p>Dirección 123</p>
+            <p>La paz, Bolivia</p>
+            <div>
+               <a href=""><i class="fa fa-facebook"></i></a>
+               <a href=""><i class="fa fa-google-plus"></i></a>
+               <a href=""><i class="fa fa-twitter"></i></a>
+            </div>
+         </div>
+      </footer>
+      <!-- Javascript -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.6.7/apexcharts.min.js"></script>
+      <!-- Custom -->
+      <script src="js/solicitud_cotizacion_script.js"></script>
+   </body>
+</html>

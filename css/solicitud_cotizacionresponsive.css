@@ -1,0 +1,540 @@
+/***
+    RESPONSIVE
+***/
+
+@media only screen and (min-width: 2100px) {}
+
+@media only screen and (min-width: 1500px) {}
+
+@media only screen and (max-width: 768px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a.special_btn {
+        color: #fff;
+    }
+    /**** SOLICITUD ****/
+    .solicitud {
+        background: #F5F5F5;
+        padding: 0;
+    }
+    /**** TOP MENU ****/
+    .solicitud .top_menu {
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+    .solicitud .top_menu .flex_one {
+        background: #0091FF;
+        border-radius: 0;
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: none;
+        padding: 10px;
+        flex-direction: column;
+    }
+    .solicitud .top_menu .flex_one .side_one div h2 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 300;
+        font-family: montserrat;
+        color: #fff;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .solicitud .top_menu .flex_one .side_one {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .solicitud .top_menu .flex_one .side_one div {}
+    .solicitud .top_menu .flex_one .side_one div img {
+        width: 30px;
+    }
+    .solicitud .top_menu .flex_one .side_one div h3 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: montserrat;
+        color: #fff;
+        margin-top: 5px;
+        display: inline-block;
+    }
+    .solicitud .top_menu .flex_one .side_one div h1 {}
+    .solicitud .top_menu .flex_one .side_two {
+        display: block;
+        margin-top: 20px;
+    }
+    .solicitud .top_menu .flex_one .side_two a {
+        background: #fff;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #0091ff;
+    }
+    .solicitud .top_menu .flex_two {
+        background: #0091FF;
+        border-radius: 0px 0px 35px 35px;
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .solicitud .top_menu .flex_two a {
+        background: #fff;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #0091ff;
+        margin-top: 5px;
+    }
+    /** Formulario **/
+    .solicitud .container_solicitud {
+        max-width: 90%;
+        margin: auto;
+        background: #fff;
+        border-radius: 40px;
+        margin-top: 45px;
+        padding: 15px 15px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+        margin-bottom: 70px;
+    }
+    .solicitud .container_solicitud .proveedores {
+        background: #0091ff;
+        border-radius: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+    .solicitud .container_solicitud .proveedores p {
+        margin: 0;
+        font-weight: 900;
+        color: #fff;
+        font-size: 16px;
+    }
+    .solicitud .container_solicitud .proveedores span {
+        border-radius: 35px;
+        background: #fff;
+        display: block;
+        padding: 6px 25px;
+        margin-right: 8px;
+        color: #0091ff;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+    }
+    /**** FORMULARIO ***/
+    .solicitud form {}
+    .solicitud form .full_container {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .solicitud form .full_container input[type="submit"] {
+        width: 100%;
+        height: 55px;
+        background: #0091FF;
+        border: none;
+        border-radius: 35px;
+        line-height: 55px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: montserrat, sans-serif;
+    }
+    .solicitud form .full_container .seven_container {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .solicitud form .full_container .seven_container h2 {
+        font-family: montserrat, sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .solicitud form .full_container .seven_container label {
+        display: block;
+        color: #000;
+        font-weight: 600;
+        font-family: montserrat, sans-serif;
+        margin-bottom: 12px;
+    }
+    .solicitud form .full_container .seven_container input[type="text"] {
+        width: 100%;
+        display: block;
+        height: 45px;
+        border: 1px solid #979797;
+        border-radius: 10px;
+        padding-left: 10px;
+        font-family: montserrat, sans-serif;
+        color: #333;
+    }
+    .solicitud form .full_container .seven_container select {
+        width: 100%;
+        display: block;
+        height: 45px;
+        border: 1px solid #979797;
+        border-radius: 10px;
+        padding-left: 10px;
+        font-family: montserrat, sans-serif;
+        color: #333;
+    }
+    .solicitud form .full_container .seven_container .form_grupos div {
+        display: flex;
+        margin-bottom: 15px;
+        align-items: center;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+    .solicitud form .full_container .seven_container .form_grupos {
+        margin-bottom: 30px;
+    }
+    .solicitud form .full_container .seven_container .form_grupos select {
+        max-width: 40%;
+        display: inline-block;
+        margin-right: 8px;
+    }
+    .solicitud form .full_container .seven_container .form_grupos div input[type="text"] {
+        max-width: 100%;
+        width: 100%;
+        display: inline-block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .solicitud form .full_container .seven_container .form_grupos a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #000;
+        border: 1px solid #000;
+        border-radius: 50%;
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .solicitud form .full_container .seven_container .form_grupos a i {}
+    .solicitud form .full_container .seven_container a.add_item i {
+        border-radius: 50%;
+        border: 1px solid black;
+        width: 26px;
+        height: 26px;
+        line-height: 26px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .solicitud form .full_container .seven_container a.add_item {
+        width: 100%;
+        display: block;
+        height: 43px;
+        border-radius: 30px;
+        line-height: 43px;
+        margin-top: 30px;
+        border: 1px dashed;
+        margin-left: 0;
+        font-weight: 600;
+        font-family: montserrat, sans-serif;
+    }
+    .solicitud form hr {
+        display: block;
+        width: 100%;
+    }
+    .solicitud form .full_container .three_container {
+        max-width: 100%;
+        width: 100%;
+    }
+    .solicitud form .full_container .three_container div {
+        background: #F5F5F5;
+        text-align: center;
+        border-radius: 30px;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.38);
+        padding: 20px 15px;
+    }
+    .solicitud form .full_container .three_container div h3 {
+        font-size: 16px;
+        color: #000;
+        font-family: montserrat, sans-serif;
+        font-weight: 600;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .solicitud form .full_container .three_container div p {
+        margin: 0;
+        margin-bottom: 15px;
+        font-size: 13px;
+        font-family: montserrat, sans-serif;
+    }
+    .solicitud form .full_container .seven_container .form_grupos div.type_payment {}
+    .solicitud form .full_container .seven_container .form_grupos div.type_payment a {
+        width: 100%;
+        display: flex;
+        height: 45px;
+        border: 1px solid #979797;
+        border-radius: 10px;
+        padding-left: 20px;
+        font-family: montserrat, sans-serif;
+        color: #979797;
+        line-height: 45px;
+        text-align: left;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 20px;
+        margin-bottom: 15px;
+    }
+    .solicitud form .full_container .seven_container .form_grupos div.type_payment a.active {
+        color: #0091FF;
+        font-weight: 600;
+        border: 2px solid #0091FF;
+    }
+    .solicitud form .full_container .seven_container .form_grupos div.type_payment a.active i {
+        opacity: 1;
+    }
+    .solicitud form .full_container .seven_container .form_grupos div.type_payment a i {
+        opacity: 0;
+        color: #fff;
+        background: #0091FF;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        line-height: 25px;
+        border-radius: 50%;
+    }
+    /***
+    FOOTER
+****/
+    footer {
+        padding: 0 20px!important;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-bottom: 60px!important;
+        text-align: center;
+        margin-top: 0px;
+    }
+    footer div {}
+    footer div.image_footer {
+        max-width: 100%;
+        width: 100%;
+        margin-top: 30px;
+    }
+    footer div.image_footer img {}
+    footer div.image_footer div {
+        padding-left: 0;
+        margin-top: 0;
+    }
+    footer div.image_footer div a {
+        display: block;
+        color: #0091FF;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    footer div.image_footer div a img {
+        margin-right: 10px;
+    }
+    footer div.menu_footer {
+        max-width: 100%;
+        width: 100%;
+        /* padding-top: 100px; */
+        margin-top: 10px;
+    }
+    footer div.menu_footer h2 {
+        margin-top: 0;
+        color: #0091FF;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    footer div.menu_footer a {
+        display: block;
+        line-height: 34px;
+        font-size: 16px;
+        color: #000;
+    }
+    footer div.direccion_footer {
+        max-width: 100%;
+        width: 100%;
+        margin-top: 20px;
+    }
+    footer div.direccion_footer h2 {
+        margin-top: 0;
+        color: #0091FF;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    footer div.direccion_footer p {
+        display: block;
+        line-height: 34px;
+        font-size: 16px;
+        color: #000;
+        margin-bottom: 0;
+    }
+    footer div.direccion_footer a {
+        margin-top: 25px;
+        display: inline-block;
+        color: #0091FF;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #0091FF;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 7px;
+        font-size: 16px;
+    }
+    footer div.direccion_footer a i {}
+    footer div.direccion_footer a:hover {
+        background: #0091ff;
+        color: #fff;
+    }
+    .side_menu .page-header {
+        text-align: center;
+        border-bottom: 0;
+        margin-top: 20px;
+    }
+    .side_menu .page-header img {
+        display: block;
+        margin: auto;
+        width: 50px;
+        border-radius: 50%;
+        height: 50px;
+    }
+    /***
+        NAVBAR
+    ***/
+    header {}
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #0091ff;
+    }
+    .navbar-default .navbar-toggle {
+        margin-top: 12px;
+        border-color: transparent;
+    }
+    .navbar-brand {
+        width: 43%;
+        float: left;
+        background-size: 84%;
+        margin-top: -10px;
+        margin-left: 15px!important;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #000;
+        text-transform: inherit;
+        font-weight: normal;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        display: block;
+        height: auto;
+    }
+    .navbar-default .navbar-collapse#bs-example-navbar-collapse-1 {
+        z-index: 9999;
+        position: relative;
+        background: #fff;
+        width: 110%;
+        float: none;
+        top: 0;
+        padding-top: 0;
+        margin-left: -16px;
+        border: none;
+        box-shadow: 0px 5px 7px #000000a3;
+        margin-top: -15px;
+        text-align: center;
+        transform: translateY(-9px);
+        padding-right: 15px;
+    }
+    .navbar {
+        height: 64px;
+        background: rgb(255, 255, 255);
+    }
+}
+
+
+/** TABLET **/
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    /***
+            NAVBAR
+        ***/
+    .navbar-brand {
+        width: 180px;
+        background-size: 85%;
+        margin-top: -5px;
+    }
+    .solicitud form .full_container .seven_container .form_grupos div input[type="text"] {
+        max-width: 56%;
+        width: 100%;
+        display: inline-block;
+        margin-right: 8px;
+    }
+    .solicitud form .full_container .seven_container .form_grupos a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #000;
+        border: 1px solid #000;
+        border-radius: 50%;
+        font-size: 16px;
+        margin-left: 5px;
+    }
+}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    /***
+            NAVBAR
+        ***/
+    .navbar-brand {
+        width: 200px;
+        background-size: 90%;
+        margin-top: -8px;
+    }
+    .navbar-default .navbar-collapse#bs-example-navbar-collapse-1 {
+        /* width: 60%; */
+    }
+    #header-links #phone-header {
+        font-size: 21px;
+        margin-right: 15px;
+    }
+    #header-links #button-header {
+        padding: 10px;
+        margin-right: 5px;
+        font-size: 11px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 10px;
+        padding: 6px;
+    }
+    .navbar-nav {
+        float: right;
+        margin: 0;
+        margin-top: 18px;
+        margin-right: 45px;
+    }
+}
