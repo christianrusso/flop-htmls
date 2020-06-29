@@ -34,3 +34,33 @@ $('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
 function mobileMenuOpen() {
     document.getElementById("gmDropdown").classList.toggle("show");
 }
+
+$('.btn_nueva_cotizacion').click(function(e) {
+    e.preventDefault();
+  $(".modal-alert").fadeIn();
+});
+
+$('.go_close').click(function(e) {
+    e.preventDefault();
+  $(".modal-success").fadeOut();
+});
+
+$('.go_close_alert').click(function(e) {
+    e.preventDefault();
+  $(".modal-alert").fadeOut();
+});
+
+$('.btn_enviar_cotizacion').click(function(e) {
+    e.preventDefault();
+  $(".modal-success").fadeIn();
+});
+
+$('.close-modal-success').click(function(e) {
+    e.preventDefault();
+  $(".modal-success").fadeOut();
+});
+
+$('.close-modal-alert').click(function(e) {
+    e.preventDefault();
+  $(".modal-alert").fadeOut();
+});

@@ -86,7 +86,7 @@
               </div>
             </div>
             <div class="flex_two">
-              <a href="">Nueva cotización</a>
+              <a href="" class="btn_nueva_cotizacion">Nueva cotización</a>
             </div>
          </div>
 
@@ -212,7 +212,7 @@
             </div>
 
             <div class="full_container">
-               <input type="submit" value="ENVIAR PEDIDO DE COTIZACIÓN">
+               <input type="submit" value="ENVIAR PEDIDO DE COTIZACIÓN" class="btn_enviar_cotizacion">
             </div>
 
             </form>
@@ -221,6 +221,48 @@
          </div>
 
       </section>
+
+
+      <!-- MODALES -->
+      <div class="modal_general modal-success">
+         <div class="inside_modal">
+            <div class="modal_superior">
+               <a href="" class="close-modal-success"><i class="fa fa-times"></i></a>
+               <h2><img  src="img/solicitud_cotizacion/seccion/ok.png" alt="Listo! Ya abriste tu Flop!">Listo! Ya abriste tu Flop!</h2>
+               <img class="avatar" src="img/solicitud_cotizacion/seccion/Avatar.png" alt="Usuario">
+            </div>
+            <div class="modal_inferior">
+               <span>Solicitud confirmada</span>
+               <h3>Completaste la solitud de cotización con éxito</h3>
+               <h4>Durante las proximas 48hs vas a recibir cotizaciones de nuestros proveedores y las vas a ver reflejadas en tu dashboard.</h4>
+               <div class="modal_buttons">
+                  <a href="dashboard.html" class="go_dashboard">Dashboard</a>
+                  <a href="" class="go_close">Listo</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="modal_general modal-alert">
+         <div class="inside_modal">
+            <div class="modal_superior">
+               <a href="" class="close-modal-alert"><i class="fa fa-times"></i></a>
+               <h2><img  src="img/solicitud_cotizacion/seccion/info.png" alt="¿Estás seguro que queres salir?">¿Estás seguro que queres salir?</h2>
+               <img class="avatar" src="img/solicitud_cotizacion/seccion/Avatar.png" alt="Usuario">
+            </div>
+            <div class="modal_inferior">
+               <span>Borrador</span>
+               <h3>¿Te gustaria guardar tu solicitud como borrador?</h3>
+               <h4>Podes guardar tu solicitud de cotización como borrador y seguirla luego sin problemas. </h4>
+               <h5>* Recordá que cada cotizacion corresponde a 1 categoria y podes agregar los productos que necesites que esten dentro de esa categoria.</h5>
+               <div class="modal_buttons">
+                  <a href="" class="go_save">Si, guardar</a>
+                  <a href="" class="go_close_alert">Cerrar</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
 
       <!-- FOOTER -->
       <footer class="col-xs-12">
