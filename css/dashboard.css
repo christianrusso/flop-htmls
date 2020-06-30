@@ -198,7 +198,7 @@ a:focus {
 }
 
 .side_menu {
-    min-height: 358vh;
+    /* min-height: 358vh; */
     padding-top: 64px;
     background: #0091ff;
     max-width: 326px;
@@ -1435,4 +1435,11 @@ footer div.direccion_footer a i {}
 footer div.direccion_footer a:hover {
     background: #0091ff;
     color: #fff;
+}
+
+.padd-no{
+    padding: 0;
+}
+.flex-container{
+      display: flex;  
 }

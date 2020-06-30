@@ -4,7 +4,6 @@
 
 @media only screen and (min-width: 2100px) {
     .side_menu {
-        min-height: 150vh;
         padding-top: 64px;
         background: #0091ff;
         max-width: 326px;
@@ -15,7 +14,6 @@
 
 @media only screen and (min-width: 1500px) {
     .side_menu {
-        min-height: 232vh;
         padding-top: 64px;
         background: #0091ff;
         max-width: 326px;
@@ -331,6 +329,9 @@
         border-radius: 50%;
         height: 50px;
     }
+    .flex-container {
+    display: block;
+}
     /***
         NAVBAR
     ***/
