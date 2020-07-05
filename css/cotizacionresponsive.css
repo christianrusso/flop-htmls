@@ -1,0 +1,853 @@
+/*** RESPONSIVE ***/
+ @media only screen and (min-width: 2100px) {
+}
+ @media only screen and (min-width: 1500px) {
+}
+ @media only screen and (max-width: 768px) {
+     .navbar-default .navbar-nav .open .dropdown-menu>li>a.special_btn {
+         color: #fff;
+    }
+    /** COTIZACION **/
+     .cotizacion{
+         background: #F5F5F5;
+         padding-top: 100px;
+    }
+     .cotizacion h2{
+         margin: 0;
+         color: #838383;
+         text-transform: uppercase;
+         text-align: center;
+         font-size: 16px;
+         font-family: montserrat, sans-serif;
+    }
+     .cotizacion h3{
+         position: relative;
+         text-align: center;
+         color: #222222;
+         font-family: montserrat, sans-serif;
+         font-weight: 700;
+         font-size: 21px;
+    }
+     .cotizacion h3:after{
+         position: absolute;
+         content: '';
+         width: 74px;
+         height: 2px;
+         background: #0091FF;
+         left: 50%;
+         bottom: -20px;
+         transform: translateX(-50%);
+    }
+     .cotizacion .cotizacion_datos{
+         background: #fff;
+         border-radius: 10px;
+         margin-top: 40px;
+         padding: 10px;
+         display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+    }
+     .cotizacion .cotizacion_datos .cotizacion_datos_half{
+         width: 100%;
+    }
+     .cotizacion .cotizacion_datos .cotizacion_datos_half.cotizacion_datos_half_one{
+         max-width: 100%;
+    }
+     .cotizacion .cotizacion_datos .cotizacion_datos_half.cotizacion_datos_half_one .cotizacion_datos_half_one_item{
+         display: flex;
+         border-bottom: 1px solid #D8D8D8;
+    }
+     .cotizacion .cotizacion_datos .cotizacion_datos_half.cotizacion_datos_half_one .cotizacion_datos_half_one_item div{
+        max-width: 65%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+     .cotizacion .cotizacion_datos .cotizacion_datos_half.cotizacion_datos_half_one .cotizacion_datos_half_one_item div h4{
+         margin: 0;
+         color: #000000;
+         font-size: 12px;
+         font-weight: 700;
+         font-family: montserrat, sans-serif;
+         margin-bottom: 7px;
+         padding-left: 15px;
+         margin-top: 7px;
+    }
+     .cotizacion .cotizacion_datos .cotizacion_datos_half.cotizacion_datos_half_one .cotizacion_datos_half_one_item div.lightblue{
+         max-width: 35%;
+         width: 100%;
+         background: #F4F8FB;
+    }
+     .cotizacion .cotizacion_datos .cotizacion_datos_half.cotizacion_datos_half_one .cotizacion_datos_half_one_item div.lightblue h4{
+         color: #808FA1;
+         font-size: 13px;
+         padding: 15px;
+         font-weight: 500;
+         text-align: center;
+    }
+     .cotizacion .cotizacion_datos .cotizacion_datos_half.cotizacion_datos_half_two{
+         max-width: 100%;
+         text-align: center;
+         box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.21);
+         border-radius: 15px;
+         margin-top: 30px;
+    }
+     .cotizacion .cotizacion_datos .cotizacion_datos_half.cotizacion_datos_half_two h4{
+         color: #1B1B29;
+         font-family: montserrat, sans-serif;
+         font-weight: 700;
+         font-size: 14px;
+         margin-top: 15px;
+         margin-bottom: 10px;
+    }
+     .cotizacion .cotizacion_datos .cotizacion_datos_half.cotizacion_datos_half_two h5{
+         font-family: montserrat, sans-serif;
+         margin-bottom: 40px;
+         color: #838383;
+         font-size: 14px;
+    }
+     .cotizacion .cotizacion_datos .cotizacion_datos_half.cotizacion_datos_half_two img{
+         max-width: 90px;
+         border-radius: 50%;
+         display: block;
+         margin: auto;
+    }
+     .cotizacion .cotizacion_datos .cotizacion_datos_half.cotizacion_datos_half_two p{
+         background: #F4F8FB;
+         border-radius: 10px;
+         height: 45px;
+         color: #808FA1;
+         font-size: 14px;
+         font-weight: 500;
+         max-width: 90%;
+         margin: auto;
+         margin-bottom: 10px;
+         line-height: 45px;
+         font-size: 13px;
+    }
+     .cotizacion .cotizacion_archivos{
+         background: #fff;
+         border-radius: 10px;
+         margin-top: 25px;
+         margin-bottom: 50px;
+         padding: 10px;
+    }
+     .cotizacion .cotizacion_archivos .expand_cotizacion{
+         display: block;
+         width: 100%;
+         text-align: center;
+         background: #0091FF;
+         height: 55px;
+         border-radius: 30px;
+         color: #fff;
+         font-size: 14px;
+         font-weight: 700;
+         font-family: montserrat, sans-serif;
+         padding-top: 9px;
+    }
+     .cotizacion .cotizacion_archivos .expand_cotizacion i{
+         display: block;
+         text-align: center;
+    }
+     .cotizacion .cotizacion_archivos p.or{
+         text-align: center;
+         margin: auto;
+         color: #000000;
+         font-family: montserrat, sans-serif;
+         font-weight: 700;
+         font-size: 20px;
+         margin: 20px 0px;
+    }
+     .cotizacion .cotizacion_archivos .add_files{
+    }
+     .cotizacion .cotizacion_archivos .add_files{
+    }
+     .cotizacion .cotizacion_archivos .add_files input[type="file"] {
+         height: 0;
+         overflow: hidden;
+         width: 0;
+    }
+     .cotizacion .cotizacion_archivos .add_files input[type="file"]+label {
+         background: transparent;
+         border: none;
+         border-radius: 30px;
+         color: #9D9B9B;
+         border: 1.5px dashed #9D9B9B;
+         cursor: pointer;
+         display: inline-block;
+         font-family: montserrat, sans-serif;
+         font-size: inherit;
+         font-weight: 700;
+         font-size: 14px;
+         margin-bottom: 0;
+         outline: none;
+         padding: 1rem;
+         position: relative;
+         -webkit-transition: all 0.3s;
+         transition: all 0.3s;
+         vertical-align: middle;
+         margin-top: 0;
+         width: 100%;
+         text-align: center;
+    }
+     .cotizacion .cotizacion_archivos .add_files input[type="file"]+label:hover {
+         background-color: transparent;
+    }
+     .cotizacion .cotizacion_archivos .add_files input[type="file"]+label i {
+         border: 1px solid #9D9B9B;
+         border-radius: 50%;
+         width: 25px;
+         height: 25px;
+         text-align: center;
+         line-height: 25px;
+         margin-right: 7px;
+    }
+     .cotizacion .cotizacion_archivos .add_files p{
+         margin: 0;
+         font-weight: 400;
+         margin-top: 30px;
+         font-family: montserrat, sans-serif;
+         font-size: 13px;
+    }
+     .cotizacion .cotizacion_archivos .expand_form{
+         max-width: 100%;
+         margin: auto;
+    }
+     .cotizacion .cotizacion_archivos .expand_form .expand_form_item{
+         margin-top: 25px;
+    }
+     .cotizacion .cotizacion_archivos .expand_form label{
+         display: block;
+         font-family: montserrat, sans-serif;
+         font-weight: 600;
+    }
+     .cotizacion .cotizacion_archivos .expand_form input{
+         width: 100%;
+         height: 48px;
+         background: #F5F5F5;
+         border: 1px solid #979797;
+         border-radius: 10px;
+         padding-left: 10px;
+         font-size: 13px;
+         font-family: montserrat, sans-serif;
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w100{
+         display: flex;
+         justify-content: space-between;
+         margin-bottom: 15px;
+         flex-wrap: wrap;
+         border-bottom: 1px solid gray;
+         padding-bottom: 15px;
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w45{
+         max-width: 100%;
+         width: 100%;
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w10{
+         max-width: 48%;
+         width: 100%;
+         margin-top: 10px;
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w15 input{
+         margin-left: 10px;
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w15{
+         max-width: 48%;
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         margin-top: 10px;
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w100.lightblue{
+         background: rgba(0, 145, 255, 0.10);
+         height: 50px;
+         line-height: 50px;
+         padding-left: 10px;
+         padding-right: 10px;
+         border-radius: 10px;
+         margin-top: 30px;
+         color: #000;
+         font-weight: 700;
+         font-family: montserrat, sans-serif;
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w100.lightblue p{
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w100.lightblue div{
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w100.lightblue div span{
+         margin-left: 10px;
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w100.lightgreen{
+         background: rgba(1, 202, 132, 0.10);
+         height: 50px;
+         line-height: 50px;
+         padding-left: 10px;
+         padding-right: 10px;
+         border-radius: 10px;
+         margin-top: 30px;
+         color: #000;
+         font-weight: 700;
+         font-family: montserrat, sans-serif;
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w100.lightgreen p{
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w100.lightgreen div{
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w100.lightgreen div span{
+         margin-left: 10px;
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w100.lightgray{
+         background: rgba(0, 0, 0, 0.1);
+         height: 50px;
+         line-height: 50px;
+         padding-left: 10px;
+         padding-right: 10px;
+         border-radius: 10px;
+         margin-top: 30px;
+         color: #000;
+         font-weight: 700;
+         font-family: montserrat, sans-serif;
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w100.lightgray p{
+         font-size: 12px;
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w100.lightgray p span{
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w100.lightgray div{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 45%;
+        height: 50px;
+    }
+     .cotizacion .cotizacion_archivos .expand_form .w100.lightgray div input{
+         max-width: 50%;
+         height: 30px;
+         width: 100%;
+         margin-left: 10px;
+         background: #fff;
+         border: #979797;
+    }
+     .cotizacion .cotizacion_archivos .expand_form hr{
+         color: #D8D8D8;
+         background: #D8D8D8;
+         margin-top: 20px;
+         margin-bottom: 20px;
+    }
+     .cotizacion .cotizacion_archivos .general_expand{
+         display: flex;
+         flex-wrap: wrap;
+    }
+     .cotizacion .cotizacion_archivos .general_expand label{
+    }
+     .cotizacion .cotizacion_archivos .general_expand .w100.w-dias{
+         align-items: center;
+         justify-content: normal;
+    }
+     .cotizacion .cotizacion_archivos .general_expand .w100{
+         max-width: 100%;
+         width: 100%;
+         flex-wrap: wrap;
+         border: none;
+    }
+     .cotizacion .cotizacion_archivos .general_expand .w70{
+         max-width: 100%;
+         width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+    }
+     .cotizacion .cotizacion_archivos .general_expand .w50{
+        max-width: 100%;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+     .cotizacion .cotizacion_archivos .general_expand .w30{
+    }
+     .cotizacion .cotizacion_archivos .general_expand .days a{
+         justify-content: space-between;
+         padding: 0px 10px;
+         border: 1px solid #979797;
+         border-radius: 5px;
+         height: 35px;
+         line-height: 35px;
+         align-items: center;
+         color: #1b1b1b;
+         font-family: montserrat, sans-serif;
+         max-width: 30%;
+         width: 100%;
+         font-size: 13px;
+         text-align: center;
+    }
+     .cotizacion .cotizacion_archivos .general_expand .days a.active{
+         color: #0091FF;
+         font-weight: 600;
+         border: 2px solid #0091FF;
+    }
+     .cotizacion .cotizacion_archivos .general_expand .days {
+         display: flex;
+         width: 100%;
+         justify-content: space-between;
+         margin-top: 10px;
+    }
+     .cotizacion .cotizacion_archivos .general_expand label{
+         display: block;
+         width: 100%;
+         max-width: 100%;
+         margin-bottom: 10px;
+    }
+     .cotizacion .cotizacion_archivos .general_expand input{
+         max-width: 50%;
+         margin-right: 10px;
+    }
+     .cotizacion .cotizacion_archivos .general_expand .w30.side{
+        background: #F5F5F5;
+        text-align: center;
+        border-radius: 30px;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.38);
+        padding: 36px 10px;
+        max-width: 100%;
+        width: 100%;
+    }
+     .cotizacion .cotizacion_archivos .general_expand .w30.side h4{
+         font-size: 15px;
+         color: #000;
+         font-family: montserrat, sans-serif;
+         font-weight: 600;
+         margin: 0;
+         margin-bottom: 10px;
+    }
+     .cotizacion .cotizacion_archivos .general_expand .w30.side p{
+        margin: 0;
+        margin-bottom: 15px;
+        font-size: 12px;
+        font-family: montserrat, sans-serif;
+    }
+     .cotizacion .cotizacion_archivos .nota_expand{
+         margin-bottom: 30px;
+    }
+     .cotizacion .cotizacion_archivos .nota_expand label{
+    }
+     .cotizacion .cotizacion_archivos .general_expand a.type p{
+         margin: 0;
+         font-size: 15px;
+    }
+     .cotizacion .cotizacion_archivos .nota_expand textarea{
+         width: 100%;
+         resize: none;
+         height: 100px;
+         border: 1px solid #979797;
+         border-radius: 10px;
+         padding-left: 10px;
+         padding-top: 5px;
+         font-family: montserrat, sans-serif;
+         font-size: 13px;
+    }
+     .cotizacion .cotizacion_archivos input[type="submit"]{
+         background: #01CA84;
+         font-weight: 700;
+         color: #fff;
+         font-size: 16px;
+         border-radius: 30px;
+         border: none;
+    }
+     .cotizacion .cotizacion_archivos .general_expand a.type i{
+         background: #0091FF;
+         color: #fff;
+         width: 21px;
+         height: 21px;
+         border-radius: 50%;
+         text-align: center;
+         line-height: 21px;
+         opacity: 0;
+    }
+     .cotizacion .cotizacion_archivos .general_expand a.type.active i{
+         opacity: 1;
+    }
+     .cotizacion .cotizacion_archivos .general_expand a.type{
+         display: flex;
+         justify-content: space-between;
+         padding: 0px 10px;
+         border: 1px solid #979797;
+         border-radius: 11px;
+         height: 45px;
+         line-height: 40px;
+         align-items: center;
+         color: #1b1b1b;
+         font-family: montserrat, sans-serif;
+    }
+     .cotizacion .cotizacion_archivos .general_expand a.type.active{
+         color: #0091FF;
+         font-weight: 600;
+         border: 2px solid #0091FF;
+    }
+    /*** FOOTER ****/
+     footer {
+         padding: 0 20px!important;
+         display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+         align-items: center;
+         padding-bottom: 60px!important;
+         text-align: center;
+         margin-top: 0px;
+    }
+     footer div {
+    }
+     footer div.image_footer {
+         max-width: 100%;
+         width: 100%;
+         margin-top: 30px;
+    }
+     footer div.image_footer img {
+    }
+     footer div.image_footer div {
+         padding-left: 0;
+         margin-top: 0;
+    }
+     footer div.image_footer div a {
+         display: block;
+         color: #0091FF;
+         font-weight: 700;
+         margin-bottom: 20px;
+    }
+     footer div.image_footer div a img {
+         margin-right: 10px;
+    }
+     footer div.menu_footer {
+         max-width: 100%;
+         width: 100%;
+        /* padding-top: 100px;
+         */
+         margin-top: 10px;
+    }
+     footer div.menu_footer h2 {
+         margin-top: 0;
+         color: #0091FF;
+         font-size: 18px;
+         font-weight: 700;
+    }
+     footer div.menu_footer a {
+         display: block;
+         line-height: 34px;
+         font-size: 16px;
+         color: #000;
+    }
+     footer div.direccion_footer {
+         max-width: 100%;
+         width: 100%;
+         margin-top: 20px;
+    }
+     footer div.direccion_footer h2 {
+         margin-top: 0;
+         color: #0091FF;
+         font-size: 18px;
+         font-weight: 700;
+    }
+     footer div.direccion_footer p {
+         display: block;
+         line-height: 34px;
+         font-size: 16px;
+         color: #000;
+         margin-bottom: 0;
+    }
+     footer div.direccion_footer a {
+         margin-top: 25px;
+         display: inline-block;
+         color: #0091FF;
+         width: 40px;
+         height: 40px;
+         border: 1px solid #0091FF;
+         border-radius: 50%;
+         text-align: center;
+         line-height: 40px;
+         margin-right: 7px;
+         font-size: 16px;
+    }
+     footer div.direccion_footer a i {
+    }
+     footer div.direccion_footer a:hover {
+         background: #0091ff;
+         color: #fff;
+    }
+     .side_menu .page-header {
+         text-align: center;
+         border-bottom: 0;
+         margin-top: 20px;
+    }
+     .side_menu .page-header img {
+         display: block;
+         margin: auto;
+         width: 50px;
+         border-radius: 50%;
+         height: 50px;
+    }
+    /*** NAVBAR ***/
+     header {
+    }
+     .navbar-default .navbar-toggle .icon-bar {
+         background-color: #0091ff;
+    }
+     .navbar-default .navbar-toggle {
+         margin-top: 12px;
+         border-color: transparent;
+    }
+     .navbar-brand {
+         width: 43%;
+         float: left;
+         background-size: 84%;
+         margin-top: -10px;
+         margin-left: 15px!important;
+    }
+     .navbar-default .navbar-nav>li>a {
+         color: #000;
+         text-transform: inherit;
+         font-weight: normal;
+         font-size: 16px;
+         font-family: 'Montserrat', sans-serif;
+         text-align: center;
+         display: block;
+         height: auto;
+    }
+     .navbar-default .navbar-collapse#bs-example-navbar-collapse-1 {
+         z-index: 9999;
+         position: relative;
+         background: #fff;
+         width: 110%;
+         float: none;
+         top: 0;
+         padding-top: 0;
+         margin-left: -16px;
+         border: none;
+         box-shadow: 0px 5px 7px #000000a3;
+         margin-top: -15px;
+         text-align: center;
+         transform: translateY(-9px);
+         padding-right: 15px;
+    }
+     .navbar {
+         height: 64px;
+         background: rgb(255, 255, 255);
+    }
+     .inside_modal{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         background: #fff;
+         border-radius: 10px;
+         box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.23);
+         max-width: 90%;
+         width: 100%;
+    }
+     .modal_general.modal-success .modal_superior{
+         background: #01CA84;
+    }
+     .modal_general.modal-alert .modal_superior{
+         background: #FFD535;
+    }
+     .modal_general.modal-success .modal_superior a{
+         color: #01ca84;
+    }
+     .modal_general.modal-alert .modal_superior a{
+         color: #ffd535;
+    }
+     .modal_general .modal_superior{
+         border-radius: 10px;
+         color: #fff;
+         padding-bottom: 40px;
+         box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.18);
+    }
+     .modal_general .modal_superior h2{
+         margin: 0;
+         text-align: center;
+         padding-top: 50px;
+         font-family: montserrat, sans-serif;
+         font-size: 16px;
+         font-weight: 700;
+         margin-bottom: 15px;
+    }
+     .modal_general .modal_superior h2 img{
+         max-width: 21px;
+         width: 100%;
+         vertical-align: top;
+         margin-right: 7px;
+    }
+     .modal_general .modal_superior img.avatar{
+         max-width: 60px;
+         width: 100%;
+         vertical-align: top;
+         margin-right: 0;
+         border-radius: 10px;
+         position: absolute;
+         left: 40%;
+    }
+     .modal_general .modal_superior a{
+         position: absolute;
+         right: 10px;
+         background: rgba(0, 0, 0, 0.59);
+         width: 22px;
+         height: 22px;
+         border-radius: 50%;
+         text-align: center;
+         line-height: 22px;
+         top: 10px;
+    }
+     .modal_general .modal_inferior{
+         text-align: center;
+         padding-top: 40px;
+         padding-bottom: 40px;
+    }
+     .modal_general .modal_inferior span{
+         color: #0091FF;
+         font-family: montserrat, sans-serif;
+         font-size: 13px;
+    }
+     .modal_general .modal_inferior h5{
+         margin: 0;
+        /* font-size: 12px;
+         */
+        /* font-family: montserrat, sans-serif;
+         */
+        /* max-width: 90%;
+         */
+        /* margin: auto;
+         */
+        /* margin-top: 25px;
+         */
+        /* color: #657378;
+         */
+        /* font-weight: 400;
+         */
+        /* font-style: italic;
+         */
+        /* line-height: 17px;
+         */
+    }
+     .modal_general .modal_inferior h3{
+         max-width: 90%;
+         margin: auto;
+         font-family: montserrat, sans-serif;
+         color: #1C282C;
+         font-weight: 700;
+         font-size: 17px;
+         margin-top: 10px;
+         margin-bottom: 15px;
+    }
+     .modal_general .modal_inferior h4{
+         font-family: montserrat, sans-serif;
+         color: #657378;
+         font-size: 15px;
+         font-weight: 400;
+         max-width: 90%;
+         margin: auto;
+         line-height: 21px;
+    }
+     .modal_general .modal_inferior .modal_buttons{
+         margin-top: 40px;
+         text-align: center;
+         padding: 0px 20px;
+         flex-direction: column;
+    }
+     .modal_general .modal_inferior .modal_buttons .go_dashboard{
+         color: #ffffff;
+         font-family: montserrat, sans-serif;
+         max-width: 200px;
+         width: 100%;
+         display: inline-block;
+         text-align: center;
+         box-shadow: none;
+         border-radius: 3px;
+         height: 40px;
+         font-size: 13px;
+         line-height: 40px;
+         background: #0091FF;
+         margin-right: 0px;
+         margin-bottom: 15px;
+    }
+     .modal_general .modal_inferior .modal_buttons .go_close{
+         color: #4C6168;
+         font-family: montserrat, sans-serif;
+         max-width: 200px;
+         width: 100%;
+         display: inline-block;
+         text-align: center;
+         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+         border-radius: 3px;
+         height: 40px;
+         line-height: 40px;
+         font-size: 13px;
+    }
+     .modal_general .modal_inferior .modal_buttons .go_close_alert{
+         color: #4C6168;
+         font-family: montserrat, sans-serif;
+         max-width: 100px;
+         width: 100%;
+         display: inline-block;
+         text-align: center;
+         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+         border-radius: 3px;
+         height: 40px;
+         line-height: 40px;
+         font-size: 13px;
+    }
+     .modal_general .modal_inferior .modal_buttons .go_save{
+         color: #ffffff;
+         font-family: montserrat, sans-serif;
+         max-width: 100px;
+         width: 100%;
+         display: inline-block;
+         text-align: center;
+         box-shadow: none;
+         border-radius: 3px;
+         height: 40px;
+         font-size: 13px;
+         line-height: 40px;
+         background: #0091FF;
+         margin-right: 20px;
+    }
+}
+/** TABLET **/
+/* Landscape */
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    /*** NAVBAR ***/
+     .navbar-brand {
+         width: 180px;
+         background-size: 85%;
+         margin-top: -5px;
+    }
+}
+/* Portrait */
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    /*** NAVBAR ***/
+     .navbar-brand {
+         width: 200px;
+         background-size: 90%;
+         margin-top: -8px;
+    }
+     .navbar-default .navbar-collapse#bs-example-navbar-collapse-1 {
+        /* width: 60%;
+         */
+    }
+     #header-links #phone-header {
+         font-size: 21px;
+         margin-right: 15px;
+    }
+     #header-links #button-header {
+         padding: 10px;
+         margin-right: 5px;
+         font-size: 11px;
+    }
+     .navbar-default .navbar-nav>li>a {
+         font-size: 10px;
+         padding: 6px;
+    }
+     .navbar-nav {
+         float: right;
+         margin: 0;
+         margin-top: 18px;
+         margin-right: 45px;
+    }
+}
