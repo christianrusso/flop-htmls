@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html ng-app=''>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" type="image/ico" href="favicon.ico" />
+      <title>Listado solicitudes</title>
+      <!-- Styles -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/listado_solicitudes.css">
+      <link rel="stylesheet" href="css/listado_solicitudesresponsive.css">
+      <link rel="stylesheet" href="css/animate.css">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;900&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Menú -->
+      <nav class="navbar navbar-default">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                  aria-expanded="false">
+               <span class="sr-only">Menú</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="index.html"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                  <li>
+                     <a href="">¿Cómo funciona?</a>
+                  </li>
+                  <li>
+                     <a href="">Ayuda <img src="img/listado_solicitudes/menu/ayuda.svg" alt=""  class="m-left"></a>
+                  </li>
+                  <li>
+                     <a href=""><img src="img/listado_solicitudes/menu/notificaciones.svg" alt=""></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/listado_solicitudes/menu/usuario.svg" alt=""></a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <h3>Bautem SA</h3>
+                        <hr>
+                        <li><a class="dropdown-item special_btn" href="#">Nueva cotización</a></li>
+                        <li><a class="dropdown-item" href="#">Mi perfil</a></li>
+                        <li><a class="dropdown-item" href="#">Mis créditos</a></li>
+                        <li><a class="dropdown-item" href="#">Mi suscripción</a></li>
+                        <hr>
+                        <li><a class="dropdown-item help_btn" href="#">Ayuda <img src="img/listado_solicitudes/menu/ayuda_blue.svg" alt=""></a></li>
+                        <li><a class="dropdown-item" href="#">Centro de ayuda</a></li>
+                        <li><a class="dropdown-item" href="#">Novedades</a></li>
+                        <li><a class="dropdown-item" href="#">¿Cómo funciona?</a></li>
+                        <hr>
+                        <li><a class="dropdown-item" href="#"><img src="img/listado_solicitudes/menu/ajustes.svg" alt="">Ajustes</a></li>
+                        <li><a class="dropdown-item" href="#"><img src="img/listado_solicitudes/menu/salir.svg" alt="">Salir</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- // menú -->
+      <!-- LISTADO SOLICITUDES -->
+      <section class="col-xs-12 listado_solicitudes">
+         <h2>SOLICITUDES DISPONIBLES</h2>
+         <h3>Buscá y cotiza los flops con facilidad.</h3>
+         <div class="col-xs-12 listado_solicitudes_container">
+            <div class="container">
+               <div class="listado_solicitudes_sidebar">
+                  <div class="categorias">
+                     <h2><img src="img/listado_solicitudes/seccion/categoria.png" alt="">Categoría</h2>
+                     <select name=" " id="">
+                        <option value="">Hogar y muebles</option>
+                        <option value="">Hogar y muebles</option>
+                        <option value="">Hogar y muebles</option>
+                     </select>
+                  </div>
+                  <div class="ubicacion">
+                     <h2>Ubicación del cliente</h2>
+                     <input type="text" placeholder="Todas las regiones">
+                     <input type="text" placeholder="Todos los países">
+                  </div>
+                  <div class="pago">
+                     <h2>Método de pago</h2>
+                     <div class="pago_items"> 
+                        <a href="   " class="active">Todos</a>
+                        <a href="   ">Contado</a>
+                        <a href="   ">Crédito</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="listado_solicitudes_items">
+                  <div class="ordenar">
+                     <h2>Ordenar solicitudes:</h2>
+                     <select name=" " id="">
+                        <option value="   ">Vencimiento</option>
+                     </select>
+                  </div>
+                  <div class="listado_solicitudes_items_single featured">
+                     <div class="main_datos">
+                        <h2>REMODELACIÓN OFICINA</h2>
+                        <h3>Publicado: <span>Hace 4 horas</span></h3>
+                     </div>
+                     <div class="main_button">
+                        <a href="   " class="cotiza"><img src="img/listado_solicitudes/seccion/cotiza.png" alt=""><span>Cotizá el FLOP</span></a>
+                        <div class="hits">
+                           <div>
+                              <img src="img/listado_solicitudes/seccion/coins.png" alt="">
+                           </div>
+                           <strong>20</strong> hits
+                        </div>
+                     </div>
+                     <div class="productos">
+                        <h2>Productos:</h2>
+                        <div class="productos_listado">
+                           <div class="productos_listado_items">
+                              <p>Silla de madera 100x90x45cm - (10 unidades) </p>
+                              <p>Silla de madera 100x90x45cm - (10 unidades) </p>
+                              <p>Silla de madera 100x90x45cm - (10 unidades) </p>
+                           </div>
+                           <div class="productos_listado_button"> 
+                              <a href="   ">Ver detalle</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tags">
+                        <p>Hogar y muebles</p>
+                        <p>Santa Cruz</p>
+                        <p>Contado</p>
+                        <p>Bolivia</p>
+                     </div>
+                     <div class="vencimiento">
+                        <h3>Vencimiento: <span>En 4 horas</span> </h3>
+                     </div>
+                     <div class="comprador">
+                        <h3>Comprador: <span><img src="img/listado_solicitudes/seccion/verified.png" alt=""> Flop Verified</span></h3>
+                     </div>
+                  </div>
+                  <div class="listado_solicitudes_items_single">
+                     <div class="main_datos">
+                        <h2>REMODELACIÓN OFICINA</h2>
+                        <h3>Publicado: <span>Hace 4 horas</span></h3>
+                     </div>
+                     <div class="main_button">
+                        <a href="   " class="cotiza"><img src="img/listado_solicitudes/seccion/cotiza.png" alt=""><span>Cotizá el FLOP</span></a>
+                        <div class="hits">
+                           <div>
+                              <img src="img/listado_solicitudes/seccion/coins.png" alt="">
+                           </div>
+                           <strong>20</strong> hits
+                        </div>
+                     </div>
+                     <div class="productos">
+                        <h2>Productos:</h2>
+                        <div class="productos_listado">
+                           <div class="productos_listado_items">
+                              <p>Silla de madera 100x90x45cm - (10 unidades) </p>
+                              <p>Silla de madera 100x90x45cm - (10 unidades) </p>
+                              <p>Silla de madera 100x90x45cm - (10 unidades) </p>
+                           </div>
+                           <div class="productos_listado_button"> 
+                              <a href="   ">Ver detalle</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tags">
+                        <p>Hogar y muebles</p>
+                        <p>Santa Cruz</p>
+                        <p>Contado</p>
+                        <p>Bolivia</p>
+                     </div>
+                     <div class="vencimiento">
+                        <h3>Vencimiento: <span>En 4 horas</span> </h3>
+                     </div>
+                  </div>
+                  <div class="listado_solicitudes_items_single">
+                     <div class="main_datos">
+                        <h2>REMODELACIÓN OFICINA</h2>
+                        <h3>Publicado: <span>Hace 4 horas</span></h3>
+                     </div>
+                     <div class="main_button">
+                        <a href="   " class="cotiza"><img src="img/listado_solicitudes/seccion/cotiza.png" alt=""><span>Cotizá el FLOP</span></a>
+                        <div class="hits">
+                           <div>
+                              <img src="img/listado_solicitudes/seccion/coins.png" alt="">
+                           </div>
+                           <strong>20</strong> hits
+                        </div>
+                     </div>
+                     <div class="productos">
+                        <h2>Productos:</h2>
+                        <div class="productos_listado">
+                           <div class="productos_listado_items">
+                              <p>Silla de madera 100x90x45cm - (10 unidades) </p>
+                              <p>Silla de madera 100x90x45cm - (10 unidades) </p>
+                              <p>Silla de madera 100x90x45cm - (10 unidades) </p>
+                           </div>
+                           <div class="productos_listado_button"> 
+                              <a href="   ">Ver detalle</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tags">
+                        <p>Hogar y muebles</p>
+                        <p>Santa Cruz</p>
+                        <p>Contado</p>
+                        <p>Bolivia</p>
+                     </div>
+                     <div class="vencimiento">
+                        <h3>Vencimiento: <span>En 4 horas</span> </h3>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- COMPRÁ CREDITOS -->
+      <div class="modal-comprar">
+         <div class="inside">
+            <a href="" class="cotizarclose"><i class="fa fa-times"></i></a>
+            <section class="col-xs-12 compra_creditos">
+               <div class="container">
+                  <h2>Créditos</h2>
+                  <h3>Comprá tus créditos</h3>
+                  <h4>
+                     Tus créditos actuales: 
+                     <span class="credits">
+                        <div><img src="img/listado_solicitudes/seccion/coins.png" alt=""></div>
+                        7 hits
+                     </span>
+                  </h4>
+                  <div class="credits_container">
+                     <div class="credits_item">
+                        <div class="price">
+                           <h2 class="actual_price"><span>$</span>5</h2>
+                        </div>
+                        <div class="hits">
+                           <div><img src="img/listado_solicitudes/seccion/coins.png" alt=""></div>
+                           <span>5</span> hits
+                        </div>
+                        <p class="description">Utilizá tus creditos para realizar cotizaciones.</p>
+                        <a href="   " class="buy">COMPRAR</a>
+                     </div>
+                     <div class="credits_item starred">
+                        <img src="img/listado_solicitudes/seccion/star.png" alt="" class="star">
+                        <div class="price">
+                           <h2 class="old_price"><span>$</span>20</h2>
+                           <h2 class="actual_price"><span>$</span>18</h2>
+                        </div>
+                        <div class="hits">
+                           <div> <img src="img/listado_solicitudes/seccion/coins.png" alt=""></div>
+                           <span>20</span> hits
+                        </div>
+                        <p class="description"><span class="alert">10% de descuento</span> para tus créditos de cotizacion.</p>
+                        <a href="   " class="buy">COMPRAR</a>
+                     </div>
+                     <div class="credits_item">
+                        <div class="price">
+                           <h2 class="old_price"><span>$</span>100</h2>
+                           <h2 class="actual_price"><span>$</span>80</h2>
+                        </div>
+                        <div class="hits">
+                           <div><img src="img/listado_solicitudes/seccion/coins.png" alt=""></div>
+                           <span>100</span> hits
+                        </div>
+                        <p class="description"><span class="alert">20% de descuento</span> para tus créditos de cotizacion.</p>
+                        <a href="   " class="buy">COMPRAR</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="credits_image">
+                  <img src="img/listado_solicitudes/seccion/multipago.png" alt="">
+               </div>
+            </section>
+         </div>
+      </div>
+      <!-- MODALES -->
+      <div class="modal_general modal-success">
+      <div class="inside_modal">
+         <div class="modal_superior">
+            <a href="" class="close-modal-success"><i class="fa fa-times"></i></a>
+            <h2><img  src="img/listado_solicitudes/seccion/ok.png" alt="Estás a solo 1 click">Estás a solo 1 click</h2>
+            <img class="avatar" src="img/listado_solicitudes/seccion/Avatar.png" alt="Usuario">
+         </div>
+         <div class="modal_inferior">
+            <span>Confirmar operacion</span>
+            <h3>Confirmar compra de cotización</h3>
+            <h4>Esta cotización vale: <span><img src="img/listado_solicitudes/seccion/coins.png" alt=""><strong>20</strong> hits</span></h4>
+            <div class="modal_buttons">
+               <a href="" class="cancel">Cancelar</a>
+               <a href="" class="confirm">Confirmar</a>
+            </div>
+         </div>
+         <div class="modal_credits">
+            <div>
+               <h4>Tus créditos actuales: <span><img src="img/listado_solicitudes/seccion/coins.png" alt=""><strong>7</strong> hits</span></h4>
+               <p class="notcredits">* No tienes hits suficientes para realizar esta cotización</p>
+            </div>
+            <div>
+               <a href="" class="comprar_creditos">Comprar hits</a>
+            </div>
+         </div>
+      </div>
+      <!-- Javascript -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.6.7/apexcharts.min.js"></script>
+      <!-- Custom -->
+      <script src="js/listado_solicitudes.js"></script>
+   </body>
+</html>
