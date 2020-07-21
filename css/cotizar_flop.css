@@ -33,7 +33,8 @@ a:focus {
     background-image: url(../img/cotizar_flop/bg.png);
     min-height: 100vh;
     padding: 0;
-    padding-top: 70px;
+    background-size: cover;
+    
 }
 
 .cotizar_flop h1 {
