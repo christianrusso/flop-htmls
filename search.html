@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html ng-app=''>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" type="image/ico" href="favicon.ico" />
+      <title>Buscar - Flop</title>
+      <!-- Styles -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/search.css">
+      <link rel="stylesheet" href="css/searchresponsive.css">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;900&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Menú -->
+      <nav class="navbar navbar-default">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                  aria-expanded="false">
+               <span class="sr-only">Menú</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="index.html"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                  <li>
+                     <a href="">¿Cómo funciona?</a>
+                  </li>
+                  <li>
+                     <a href="">Ayuda <img src="img/search/menu/ayuda.svg" alt=""  class="m-left"></a>
+                  </li>
+                  <li>
+                     <a href=""><img src="img/search/menu/notificaciones.svg" alt=""></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/search/menu/usuario.svg" alt=""></a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <h3>Flop</h3>
+                        <hr>
+                        <li><a class="dropdown-item special_btn" href="#">Nueva cotización</a></li>
+                        <li><a class="dropdown-item" href="#">Mi perfil</a></li>
+                        <li><a class="dropdown-item" href="#">Mis créditos</a></li>
+                        <li><a class="dropdown-item" href="#">Mi suscripción</a></li>
+                        <hr>
+                        <li><a class="dropdown-item help_btn" href="#">Ayuda <img src="img/search/menu/ayuda_blue.svg" alt=""></a></li>
+                        <li><a class="dropdown-item" href="#">Centro de ayuda</a></li>
+                        <li><a class="dropdown-item" href="#">Novedades</a></li>
+                        <li><a class="dropdown-item" href="#">¿Cómo funciona?</a></li>
+                        <hr>
+                        <li><a class="dropdown-item" href="#"><img src="img/search/menu/ajustes.svg" alt="">Ajustes</a></li>
+                        <li><a class="dropdown-item" href="#"><img src="img/search/menu/salir.svg" alt="">Salir</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- // menú -->
+
+      <!-- SEARCH -->
+
+      <section class="col-xs-12 search">
+
+      <div class="col-xs-12 searchbar">
+         <form action="">
+            <input type="text" placeholder="Buscar...">
+            <button type="submit"><i class="fa fa-search"></i></button>
+         </form>
+      </div>
+
+      <div class="col-xs-12 main_flop">
+         <div class="col-xs-12 form_flop">
+            <h2>Tu búsqueda pertenece a:</h2>
+            <form action="">
+
+               <div class="item_form">
+                  <div><img src="img/search/seccion/categoria.png" alt=""> Categoría</div>
+                  <select name="" id="">
+                     <option value="" selected="">Hogar y muebles</option>
+                     <option value="">Belleza</option>
+                     <option value="">Jardinería</option>
+                  </select>
+               </div>
+
+               <div class="item_form">
+                  <div><img src="img/search/seccion/departamento.png" alt=""> Departamento</div>
+                  <select name="" id="">
+                     <option value="" selected="">Santa Cruz</option>
+                     <option value="">La Paz</option>
+                  </select>
+               </div>
+
+               <div class="item_form">
+                  <div><img src="img/search/seccion/pais.png" alt=""> País</div>
+                  <select name="" id="">
+                     <option value="" selected="">Bolivia</option>
+                     <option value="">Brasil</option>
+                     <option value="">Chile</option>
+                  </select>
+               </div>
+
+
+            </form>
+         </div>
+
+         <div class="col-xs-12 image_text_flop">
+            <div class="arrow_one h-one">
+               <div>
+                  <h2>Buscá tu producto</h2>
+                  <p>Nuestro software detecta las palabras y reconoce la categoria que pertenece el producto que estás necesitando.</p>
+               </div> 
+               <img src="img/search/seccion/arrow.png" alt="">
+            </div>
+            <div class="main_image">
+               <h2>Enviá tu solicitud</h2>
+               <img src="img/search/seccion/flop.png" alt="">
+            </div>
+            <div class="arrow_one h-two">
+               <img src="img/search/seccion/arrow.png" alt="">
+               <div>
+                  <h2>Escalá tu negocio</h2>
+                  <p>Recibí cotizaciones de todos los proveedores registrados y consegui escalar tu negocio de la mejor manera.</p>
+               </div>              
+            </div>
+         </div>
+
+      </div>
+       
+
+      <div class="col-xs-12 enviar_solicitud">
+         <div class="col-sm-4 text">
+            <h2>Enviá tu solicitud</h2>
+            <p>Dejá que trabajen por vos</p>
+         </div>
+         <div class="col-sm-8 items">
+            <div>
+               <p><i class="fa fa-check"></i> Proveedores homologados</p>
+               <p><i class="fa fa-check"></i> Cotizaciones ilimitadas</p>
+               <p><i class="fa fa-check"></i> Accesibilida de contacto a multinacionales</p>
+               <p><i class="fa fa-check"></i> Información segura</p>
+               <p><i class="fa fa-check"></i> Servicio personalizado</p>
+               <p><i class="fa fa-check"></i> Documentación y registro online</p>
+            </div>
+            <a href="">Abrí tu flop!</a>
+         </div>
+      </div>
+
+      </section>
+
+
+
+      <!-- FOOTER -->
+      <footer class="col-xs-12">
+         <div class="image_footer">
+            <img src="img/search/logo/logo.png" alt="Flop">
+            <div>
+               <a href="mailto:contacto@gmail.com"><img src="img/search/footer/email.png" alt="email"> contacto@gmail.com</a>
+               <a href="tel:"><img src="img/search/footer/phone.png" alt="telefono"> +54 9 11 3344-9892</a>
+            </div>
+         </div>
+         <div class="menu_footer">
+            <h2>Nosotros</h2>
+            <a href="">Sobre nosotros</a>
+            <a href="">Nuestro equipo</a>
+            <a href="">Nuestra historia</a>
+            <a href="">Políticas de privacidad</a>
+         </div>
+         <div class="menu_footer">
+            <h2>Partners</h2>
+            <a href="">Tengo una empresa</a>
+            <a href="">Quiero ser proveedor</a>
+         </div>
+         <div class="menu_footer">
+            <h2>Empresa</h2>
+            <a href="">Políticas de privacidad</a>
+            <a href="">Políticas de seguridad</a>
+            <a href="">Nuestro equipo</a>
+            <a href="">Contacto</a>
+         </div>
+         <div class="direccion_footer">
+            <div>
+               <a href=""><i class="fa fa-twitter"></i></a>
+               <a href=""><i class="fa fa-youtube"></i></a>
+               <a href=""><i class="fa fa-instagram"></i></a>
+               <a href=""><i class="fa fa-facebook"></i></a>
+            </div>
+         </div>
+      </footer>
+      <!-- Javascript -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!-- Custom -->
+      <script src="js/search.js"></script>
+   </body>
+</html>
