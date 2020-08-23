@@ -91,7 +91,7 @@ $('.owl-proveedores').owlCarousel({
     dots: true,
     loop:true,
     margin:20,
-    autoplay:false,
+    autoplay:true,
     responsive:{
         0:{
             items:1
