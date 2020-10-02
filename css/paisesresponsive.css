@@ -2,7 +2,7 @@
 
 @media only screen and (min-width: 2100px) {}
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1800px) {
     /** PAISES ***/
     body {
         background-color: #090E18;
@@ -37,7 +37,7 @@
     .paises .container_paises {
         display: flex;
         flex-wrap: wrap;
-        max-width: 70%;
+        max-width: 75%;
         margin: auto;
         justify-content: space-between;
         margin-top: 35px;
@@ -135,6 +135,58 @@
         margin-top: 30px;
         font-size: 12px;
     }
+}
+
+@media only screen and (min-width: 1400px) {
+    /** PAISES ***/
+    body {
+        background-color: #090E18;
+        background-image: url(../img/paises/bg.png);
+        background-position: bottom right;
+        background-size: 57%;
+        background-repeat: no-repeat;
+    }
+    .paises {
+        max-width: 80%;
+        float: none;
+        margin: auto;
+        padding-top: 3%;
+    }
+    .paises .logo {
+        max-width: 450px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .paises h1 span {
+        color: #fff;
+    }
+    .paises h1 {
+        text-align: center;
+        margin: 0;
+        color: #AEAEAE;
+        font-size: 36px;
+        font-weight: 700;
+        margin-top: 50px;
+    }
+    .paises .container_paises {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 75%;
+        margin: auto;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+.paises .container_paises {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 35px;
+}
 }
 
 @media only screen and (max-width: 767px) {
