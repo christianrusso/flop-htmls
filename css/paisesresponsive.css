@@ -1,0 +1,429 @@
+/*** RESPONSIVE ***/
+
+@media only screen and (min-width: 2100px) {}
+
+@media only screen and (min-width: 1500px) {
+    /** PAISES ***/
+    body {
+        background-color: #090E18;
+        background-image: url(../img/paises/bg.png);
+        background-position: bottom right;
+        background-size: 57%;
+        background-repeat: no-repeat;
+    }
+    .paises {
+        max-width: 65%;
+        float: none;
+        margin: auto;
+        padding-top: 3%;
+    }
+    .paises .logo {
+        max-width: 450px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .paises h1 span {
+        color: #fff;
+    }
+    .paises h1 {
+        text-align: center;
+        margin: 0;
+        color: #AEAEAE;
+        font-size: 36px;
+        font-weight: 700;
+        margin-top: 50px;
+    }
+    .paises .container_paises {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 70%;
+        margin: auto;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+    .paises .container_paises .item a {
+        display: block;
+        width: 100%;
+        padding: 15px;
+    }
+    .paises .container_paises .item {
+        max-width: 32%;
+        width: 100%;
+        background: rgb(255 255 255 / 0.6);
+        border-radius: 10px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .paises .container_paises img {
+        margin-right: 10px;
+    }
+    .paises .container_paises p {
+        color: #fff;
+        font-weight: 700;
+        font-size: 20px;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    /*** FOOTER ***/
+    footer {
+        max-width: 60%;
+        margin: auto;
+        float: none!important;
+        padding-top: 15%;
+        padding-bottom: 4%;
+    }
+    footer .disclaimer {
+        background: #fff;
+        border-radius: 10px;
+        max-width: 450px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 80px;
+        padding: 15px;
+        margin: auto;
+    }
+    footer .disclaimer img {
+        width: 45px;
+        margin-right: 10px;
+    }
+    footer .disclaimer p {
+        margin: 0;
+        color: #000000;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    footer .social {
+        margin-top: 50px;
+        text-align: center;
+    }
+    footer .social a {
+        display: inline-block;
+        background: #BDC3CA;
+        font-size: 24px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        line-height: 45px;
+        color: #090e18;
+        margin: 0px 10px;
+    }
+    footer .social a i {}
+    footer hr {
+        border-color: #71777D;
+        margin-top: 30px;
+    }
+    footer .logo_footer {
+        max-width: 250px;
+        margin: auto;
+        display: block;
+    }
+    footer h2 {
+        margin: 0;
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    footer span {
+        text-align: center;
+        display: block;
+        color: #92989F;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /** PAISES ***/
+    body {
+        background-color: #090E18;
+        background-image: url(../img/paises/bg.png);
+        background-position: bottom right;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .paises {
+        max-width: 95%;
+        float: none;
+        margin: auto;
+        padding-top: 3%;
+    }
+    .paises .logo {
+        max-width: 300px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .paises h1 span {
+        color: #fff;
+    }
+    .paises h1 {
+        text-align: center;
+        margin: 0;
+        color: #AEAEAE;
+        font-size: 27px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+    .paises .container_paises {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: auto;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+    .paises .container_paises .item a {
+        display: block;
+        width: 100%;
+        padding: 15px;
+    }
+    .paises .container_paises .item {
+        max-width: 100%;
+        width: 100%;
+        background: rgb(255 255 255 / 0.6);
+        border-radius: 10px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .paises .container_paises img {
+        margin-right: 10px;
+    }
+    .paises .container_paises p {
+        color: #fff;
+        font-weight: 700;
+        font-size: 16px;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    /*** FOOTER ***/
+    footer {
+        max-width: 95%;
+        margin: auto;
+        float: none!important;
+        padding-top: 15%;
+        padding-bottom: 4%;
+    }
+    footer .disclaimer {
+        background: #fff;
+        border-radius: 10px;
+        max-width: 450px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 61px;
+        padding: 10px;
+        margin: auto;
+    }
+    footer .disclaimer img {
+        width: 40px;
+        margin-right: 10px;
+    }
+    footer .disclaimer p {
+        margin: 0;
+        color: #000000;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    footer .social {
+        margin-top: 20px;
+        text-align: center;
+    }
+    footer .social a {
+        display: inline-block;
+        background: #BDC3CA;
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        line-height: 40px;
+        color: #090e18;
+        margin: 0px 10px;
+    }
+    footer .social a i {}
+    footer hr {
+        border-color: #71777D;
+        margin-top: 30px;
+    }
+    footer .logo_footer {
+        max-width: 150px;
+        margin: auto;
+        display: block;
+    }
+    footer h2 {
+        margin: 0;
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    footer span {
+        text-align: center;
+        display: block;
+        color: #92989F;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+}
+
+
+/** TABLET **/
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .paises .container_paises {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: auto;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    /** PAISES ***/
+    body {
+        background-color: #090E18;
+        background-image: url(../img/paises/bg.png);
+        background-position: bottom right;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .paises {
+        max-width: 80%;
+        float: none;
+        margin: auto;
+        padding-top: 3%;
+    }
+    .paises .logo {
+        max-width: 450px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .paises h1 span {
+        color: #fff;
+    }
+    .paises h1 {
+        text-align: center;
+        margin: 0;
+        color: #AEAEAE;
+        font-size: 36px;
+        font-weight: 700;
+        margin-top: 50px;
+    }
+    .paises .container_paises {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: auto;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+    .paises .container_paises .item a {
+        display: block;
+        width: 100%;
+        padding: 15px;
+    }
+    .paises .container_paises .item {
+        max-width: 32%;
+        width: 100%;
+        background: rgb(255 255 255 / 0.6);
+        border-radius: 10px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .paises .container_paises img {
+        margin-right: 10px;
+    }
+    .paises .container_paises p {
+        color: #fff;
+        font-weight: 700;
+        font-size: 20px;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    /*** FOOTER ***/
+    footer {
+        max-width: 70%;
+        margin: auto;
+        float: none!important;
+        padding-top: 20%;
+        padding-bottom: 14%;
+    }
+    footer .disclaimer {
+        background: #fff;
+        border-radius: 10px;
+        max-width: 450px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 80px;
+        padding: 15px;
+        margin: auto;
+    }
+    footer .disclaimer img {
+        width: 45px;
+        margin-right: 10px;
+    }
+    footer .disclaimer p {
+        margin: 0;
+        color: #000000;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    footer .social {
+        margin-top: 50px;
+        text-align: center;
+    }
+    footer .social a {
+        display: inline-block;
+        background: #BDC3CA;
+        font-size: 24px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        line-height: 45px;
+        color: #090e18;
+        margin: 0px 10px;
+    }
+    footer .social a i {}
+    footer hr {
+        border-color: #71777D;
+        margin-top: 30px;
+    }
+    footer .logo_footer {
+        max-width: 250px;
+        margin: auto;
+        display: block;
+    }
+    footer h2 {
+        margin: 0;
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    footer span {
+        text-align: center;
+        display: block;
+        color: #92989F;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+}
